@@ -2,10 +2,10 @@ import { Carousel } from 'react-bootstrap';
 
 export default function CarouselComponent() {
   return (
-    <Carousel>
+    <Carousel className='pt-5'>
       <Carousel.Item className=''>
         <img
-          className="d-block w-100"
+          className="d-block w-100 circle"
           src="https://www.fioreriadassie.it/wp-content/uploads/2020/04/mazzo1.jpg"
           alt="Prodotto 1"
           style={{
@@ -21,7 +21,7 @@ export default function CarouselComponent() {
 
       <Carousel.Item>
         <img
-          className="d-block w-100"
+          className="d-block w-100 rounded"
           src="https://blog.interflora.it/wp-content/uploads/2022/04/primule.jpg"
           alt="Prodotto 2"
           style={{
@@ -37,7 +37,7 @@ export default function CarouselComponent() {
 
       <Carousel.Item>
         <img
-          className="d-block  w-100"
+          className="d-block w-100 rounded"
           src="https://pazienti-platform.s3.eu-central-1.amazonaws.com/zsdev2u9uibx00rww1jbw5abupxh"
           alt="Prodotto 3"
           style={{
