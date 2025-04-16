@@ -34,7 +34,7 @@ function StickyNavbar() {
         <Container>
           <Row>
             <Col>
-              📢 Annuncio importante! Spedizione gratuita per ordini superiori a 50€!
+              📢 Annuncio importante! Questo annuncio è personalizzabile!
             </Col>
           </Row>
         </Container>
