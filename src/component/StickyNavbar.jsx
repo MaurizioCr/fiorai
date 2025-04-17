@@ -1,6 +1,5 @@
 import React from 'react';
 import { Navbar, Nav, Container, Image, Row, Col } from 'react-bootstrap';
-import { Navigate } from 'react-router-dom';
 import logo from "../Assets/fantasie.jpeg"
 
 function StickyNavbar() {
