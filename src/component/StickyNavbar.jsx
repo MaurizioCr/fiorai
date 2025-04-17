@@ -25,7 +25,7 @@ function StickyNavbar() {
           <Nav className="ms-auto"> {/* ms-auto spinge gli elementi a destra */}
             <Nav.Link href="#in-primo-piano">In primo Piano</Nav.Link>
             <Nav.Link href="#chi-siamo">Chi siamo</Nav.Link>
-            <Nav.Link href="/DoveTrovarci" >Dove trovarci</Nav.Link>
+            <Nav.Link href="/dovetrovarci" >Dove trovarci</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
