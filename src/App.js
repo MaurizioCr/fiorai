@@ -20,8 +20,8 @@ function App() {
     <PetalBackground />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/categoria/:nome" element={<CategoryPage />} />
         <Route path="/dovetrovarci" element={<DoveTrovarci/>}/>
+        <Route path="/" element={<CategoryPage />} />
       </Routes>
     </Router>
     </div>
