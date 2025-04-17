@@ -4,6 +4,7 @@ import CategoryPage from './component/CategoryPage';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import PetalBackground from './component/PetalEffect';
 import StickyNavbar from './component/StickyNavbar';
+import DoveTrovarci from './component/DoveTrovarci';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/categoria/:nome" element={<CategoryPage />} />
+        <Route path="/DoveTrovarci" element={<DoveTrovarci/>}/>
       </Routes>
     </Router>
     </div>

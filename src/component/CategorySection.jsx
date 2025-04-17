@@ -50,7 +50,7 @@ export default function CategorySection() {
               variant="top"
               src="https://blog.interflora.it/wp-content/uploads/2022/04/primule.jpg" style={imageStyle} 
             />
-            <Card.Body>
+            <Card.Body className='text-center'>
               <Card.Title>Fiori</Card.Title>
             </Card.Body>
           </Card>

@@ -1,7 +1,7 @@
 import { Container, Row, Col } from 'react-bootstrap';
 
 export default function WhatsAppIcon() {
-  const whatsappLink = "https://wa.me/393401234567"; // Sostituisci con il tuo numero
+  const whatsappLink = "https://wa.me/3398438914"; // Sostituisci con il tuo numero
 
   const iconStyle = {
     width: "4em",
