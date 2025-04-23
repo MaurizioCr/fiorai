@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import PetalBackground from './component/PetalEffect';
 import StickyNavbar from './component/StickyNavbar';
 import DoveTrovarci from './component/DoveTrovarci';
+import CookieBanner from './component/BannerCookie';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
     <Router>
     <StickyNavbar/>
     <PetalBackground />
+    <CookieBanner />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/dovetrovarci" element={<DoveTrovarci/>}/>
