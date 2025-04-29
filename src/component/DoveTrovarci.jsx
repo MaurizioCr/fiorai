@@ -62,7 +62,7 @@ export default function DoveTrovarci() {
           </Table>
 
           <h4 className="mt-4">Indirizzo</h4>
-          <p>Via Esempio 12, 00100 Roma</p>
+          <p>Via Giovanni XXIII, 97, Frattaminore NA</p>
 
           <h4 className="mt-3">Telefono</h4>
           <p>
